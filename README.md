@@ -1,4 +1,4 @@
-# Feishu Bridge
+# codex-Feishu
 
 飞书长连接桥接插件：接收飞书消息，通过本地 Codex CLI 处理后，将结果回传到原消息线程。插件同时提供 MCP 服务，安装/启用后 Codex 可以直接查看状态、启动/停止监听器，并向指定 `chat_id` 发送文本。
 
