@@ -1,0 +1,6 @@
+.env
+downloads/
+outputs/
+node_modules/
+venv/
+*.log

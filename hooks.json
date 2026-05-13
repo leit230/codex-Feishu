@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "on_start": {
+      "script": "./scripts/start_bridge.sh",
+      "description": "启动飞书长连接桥接服务"
+    },
+    "on_stop": {
+      "script": "./scripts/stop_bridge.sh",
+      "description": "停止飞书长连接桥接服务"
+    }
+  }
+}

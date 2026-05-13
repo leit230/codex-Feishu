@@ -1,0 +1,34 @@
+{
+  "name": "feishu-bridge",
+  "version": "1.0.0",
+  "description": "飞书长连接桥接插件，将飞书消息转发给 Codex 并把结果回传到飞书",
+  "author": {
+    "name": "Feishu Bridge",
+    "email": "",
+    "url": ""
+  },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT",
+  "keywords": ["feishu", "lark", "bridge", "websocket", "codex"],
+  "skills": "./skills/",
+  "hooks": "./hooks.json",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "飞书长连接桥接",
+    "shortDescription": "通过飞书长连接把消息交给 Codex 处理",
+    "longDescription": "基于飞书官方长连接事件订阅，接收群聊或私聊消息，调用本地 Codex CLI 生成结果，并回写到原消息线程。",
+    "developerName": "Feishu Bridge",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "",
+    "privacyPolicyURL": "",
+    "termsOfServiceURL": "",
+    "defaultPrompt": [
+      "查看飞书长连接状态",
+      "启动飞书长连接桥接服务",
+      "向指定飞书 chat_id 发送消息"
+    ],
+    "brandColor": "#3370FF"
+  }
+}

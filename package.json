@@ -1,0 +1,26 @@
+{
+  "name": "feishu-bridge",
+  "version": "1.0.0",
+  "description": "飞书长连接桥接插件",
+  "main": "bridge_server.js",
+  "scripts": {
+    "start": "node bridge_server.js",
+    "mcp": "node mcp_server.js",
+    "test": "node --check feishu_bridge.js && node --check bridge_server.js && node --check mcp_server.js"
+  },
+  "keywords": [
+    "feishu",
+    "lark",
+    "websocket",
+    "bridge",
+    "codex"
+  ],
+  "author": "Feishu Bridge",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.63.1",
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1"
+  }
+}
