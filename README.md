@@ -56,7 +56,6 @@ CODEX_MODE=exec
 
 ## 启动
 ```bash
-npm install
 npm start
 ```
 
